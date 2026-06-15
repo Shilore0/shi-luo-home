@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Shilore Home">
+    <meta name="keywords" content="Shilore,Homepage">
+    <meta name="author" content="Shilore">
+    <title>Shilore Home</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/onlinewebfonts.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/vno.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/iconfont.css">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+    <link rel="icon" href="./favicon.ico">
+    <style>
+        .iUp { opacity: 1 !important; transform: none !important; }
+        .panel-cover--overlay { opacity: 0.35; }
+        .panel-cover {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%) center center / cover no-repeat;
+        }
+        .icon-bilibili:before { content: ""; display: inline-block; width: 21px; height: 21px; background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22white%22%3E%3Cpath%20d%3D%22M17.813%204.653h.854c1.51.054%202.769.578%203.773%201.574%201.004.995%201.524%202.249%201.56%203.76v7.36c-.036%201.51-.556%202.77-1.56%203.773-1.004%201.005-2.263%201.527-3.773%201.56H5.333c-1.51-.037-2.769-.557-3.773-1.56C.556%2020.346.036%2019.093%200%2017.587v-7.36c.036-1.511.556-2.765%201.56-3.76%201.004-.996%202.263-1.52%203.773-1.574h.774l-1.174-1.12a1.234%201.234%200%200%201-.373-.906c0-.356.124-.658.373-.907l.027-.027c.267-.249.573-.373.92-.373.347%200%20.653.124.92.373L9.653%204.44c.071.071.134.142.187.213h4.267a.836.836%200%200%201%20.16-.213l2.853-2.747c.268-.249.574-.373.92-.373.348%200%20.654.124.92.373.25.249.374.55.374.907%200%20.356-.124.658-.374.906l-1.147%201.147zM5.333%207.24c-.75%200-1.39.269-1.92.805-.53.536-.8%201.176-.8%201.92v7.36c0%20.745.27%201.385.8%201.92.53.537%201.17.8%201.92.8h13.334c.75%200%201.39-.263%201.92-.8.53-.535.8-1.175.8-1.92v-7.36c0-.744-.27-1.384-.8-1.92-.53-.536-1.17-.805-1.92-.805H5.333zm2.453%202.547h2.24v5.333h-2.24V9.787zm5.094%200h2.24v5.333h-2.24V9.787z%22%2F%3E%3C%2Fsvg%3E') no-repeat center; background-size: contain; vertical-align: middle; }
+        .icon-gitee:before { content: ""; display: inline-block; width: 21px; height: 21px; background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22white%22%3E%3Cpath%20d%3D%22M11.984%200A12%2012%200%200%200%200%2012a12%2012%200%200%200%2012%2012%2012%2012%200%200%200%2012-12A12%2012%200%200%200%2012%200zm6.09%205.333c.328%200%20.593.266.593.593v1.482a.594.594%200%200%201-.593.593H9.777c-.982%200-1.778.796-1.778%201.778v5.63c0%20.327.266.592.593.592h1.482a.594.594%200%200%201%20.593.593v1.482a.594.594%200%200%201-.593.593H5.926a.594.594%200%200%201-.593-.593V7.407c0-.982.796-1.778%201.778-1.778h10.963z%22%2F%3E%3C%2Fsvg%3E') no-repeat center; background-size: contain; vertical-align: middle; }
+        .icon-qq:before { content: ""; display: inline-block; width: 21px; height: 21px; background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22white%22%3E%3Cpath%20d%3D%22M12.003%202c-3.23%200-5.907%202.146-6.656%205.104-.327%201.294-.188%202.498.327%203.506-.254.503-.45.956-.605%201.326-.56%201.334-.886%202.133-.886%202.133s.56-1.56%201.307-3.08c.28-.561.612-1.136.982-1.72.037.014.075.028.112.042.14.187.28.374.448.561-1.12.923-2.147%202.31-2.8%203.92%200%200%20.934-1.68%202.52-3.32.42.42.906.793%201.447%201.12-.56.982-1.773%203.08-3.08%205.693%200%200%202.613-2.053%205.413-3.08.467-.186.934-.327%201.4-.42.42-.074.84-.093%201.26-.047.42-.046.84-.027%201.26.047.466.093.933.234%201.4.42%202.8%201.027%205.413%203.08%205.413%203.08-1.307-2.613-2.52-4.71-3.08-5.693.54-.327%201.027-.7%201.447-1.12%201.587%201.64%202.52%203.32%202.52%203.32-.653-1.61-1.68-2.997-2.8-3.92.168-.187.308-.374.448-.56.037-.015.075-.03.112-.043.37.584.7%201.159.982%201.72.747%201.52%201.307%203.08%201.307%203.08s-.327-.8-.887-2.133c-.154-.37-.35-.823-.605-1.326.515-1.008.654-2.212.327-3.506C17.91%204.146%2015.233%202%2012.003%202z%22%2F%3E%3C%2Fsvg%3E') no-repeat center; background-size: contain; vertical-align: middle; }
+    </style>
+</head>
+
+<body>
+    <span class="mobile btn-mobile-menu">
+        <i class="social iconfont icon-list btn-mobile-menu__icon"></i>
+        <i class="social iconfont icon-angleup btn-mobile-close__icon hidden"></i>
+    </span>
+    <header id="panel" class="panel-cover">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content">
+                    <div class="ih-item circle effect right_to_left">            
+                        <a href="#" title="" class="blog-button">
+                            <div class="img"><img src="./Shilore.jpg" alt="img" class="js-avatar iUp profilepic"></div>
+                            <div class="info iUp">
+                                <div class="info-back">
+                                    <h2> 
+                                        
+                                            Be Brave
+                                        
+                                    </h2>
+                                    <p>
+                                        
+                                            2026 · 平静
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <h1 class="panel-cover__title panel-title iUp">
+                        <a href="#" title="Shilore Home">Shilore</a>
+                    </h1>
+                    <p class="panel-cover__subtitle panel-subtitle iUp">Code Create Life</p>
+                    <hr class="panel-cover__divider iUp" />
+                    <p id="description" class="panel-cover__description iUp">如何得与凉风约, 不共尘沙一并来!
+                        <br/>
+                        <strong>-「中牟道中」</strong>
+                    </p>
+                    <div class="navigation-wrapper iUp">
+                        <div class="iUp">
+                            <nav class="cover-navigation navigation--social">
+                                <ul class="navigation">
+                                    <li class="navigation__item">
+                                        <a href="https://space.bilibili.com/452345198" title="bilibili" target="_blank">
+                                            <i class='social iconfont icon-bilibili'></i>
+                                            <span class="label">bilibili</span>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://github.com/Shilore0" title="github" target="_blank">
+                                            <i class='social iconfont icon-github'></i>
+                                            <span class="label">github</span>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://gitee.com/Shilore0" title="gitee" target="_blank">
+                                            <i class='social iconfont icon-gitee'></i>
+                                            <span class="label">gitee</span>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://wpa.qq.com/msgrd?v=3&uin=3014205696&site=qq&menu=yes" title="qq" target="_blank">
+                                            <i class='social iconfont icon-qq'></i>
+                                            <span class="label">qq</span>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="javascript:decryptEmail('dzE4MTczODE0MjM1QDE2My5jb20=');" title="email">
+                                            <i class='social iconfont icon-email'></i>
+                                            <span class="label">email</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay cover-slate"></div>
+        </div>
+
+    </header>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+</body>
+</html>
